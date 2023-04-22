@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Contacto</title>
+</head>
+
+<main>
+<form>
+    <label for="nombreyapellido">Nombre y Apellido</label class="input-mensaje">
+    <input type="text" id="nombreyapellido" required>
+
+    <label for="correoelectronico">Correo Electrónico</label class="input-mensaje">
+    <input type="email" id="correoelectronico" required placeholder="email@dominio.com">
+
+    <label for="numerotelefonico">Número Telefónico</label class="input-mensaje">
+    <input type="tel" id="numerotelefonico" required placeholder="xx-xxxx-xxxx">
+
+    <label for="Mensaje">Mensaje</label>
+    <textarea name="Mensaje" id="Mensaje" cols="70" rows="10" required></textarea class="input-mensaje">
+ 
+
+    <div>
+
+    <fieldset>
+
+     <legend>¿Cómo le gustaría ser contactado?</legend>
+
+     <label for="radio-Whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+    
+
+     <label for="radio-Email"><input type="radio" name="contacto" value="Email" id="radio-Email">Email</label>
+    
+
+     <label for="radio-Telefono"><input type="radio" name="contacto" value="Telefono" id="radio-Telefono">Teléfono</label>
+    
+
+     </div>
+
+    </fieldset>
+
+    <fieldset>
+
+     <legend>¿En que horario te gustaría ser contactado?</legend>
+
+     <select name="" id="">
+        <option value="">Mañana</option>
+        <option value="">Tarde</option>
+        <option value="">Noche</option>
+     </select>
+
+     <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir actualizaciones de los cursos?</label>
+
+    </fieldset>
+
+    <input type="submit" class="enviar">
+
+    <button><a href="index.html" style="text-decoration:none"> &#127969;Home</a></button>
+    <button><a href="" style="text-decoration:none">&#128366;Teachers</a></button>
+    <button><a href="" style="text-decoration:none">&#128467;Horario</a></button>
+
+    
+</form>
+
+<body>
+    <div class="snow"></div>
+
+</body>
+</main>
+
+
+
+</html>
